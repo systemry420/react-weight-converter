@@ -55,9 +55,9 @@ function Card(props) {
   }
 
   return(
-    <div className="card">
-      <h4>{props.name}:</h4>
-      <p>{result}</p>
+    <div className={`card ${props.name}`}>
+      <h3>{props.name}:</h3>
+      <span>{result}</span>
     </div>
   )
 }
