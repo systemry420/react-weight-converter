@@ -7,8 +7,11 @@ class App extends React.Component {
   }
 
   handleChange = e => {
+    const input = e.target.value
+    if(isNaN(input)) return;
+
     this.setState({
-      value: e.target.value
+      value: input
     })
   }
 
@@ -20,10 +23,43 @@ class App extends React.Component {
           type="text" 
           onChange={this.handleChange}
           value={this.state.value}
+          placeholder="Pounds"
         />
+        <div className="output">
+          <Card name="Gram" value={this.state.value} />
+          <Card name="Kilogram" value={this.state.value} />
+          <Card name="Ounce" value={this.state.value} />
+        </div>
       </div>
     )
   }
+}
+
+function Card(props) {
+  let result = 0;
+  switch (props.name) {
+    case "Gram":     
+      result = props.value / 0.0022046
+      break
+    
+    case "Kilogram":
+      result = props.value / 2.2046
+      break
+      
+    case "Ounce":
+      result = props.value * 16
+      break
+    
+    default: 
+      break;
+  }
+
+  return(
+    <div className="card">
+      <h4>{props.name}:</h4>
+      <p>{result}</p>
+    </div>
+  )
 }
 
 export default App;
