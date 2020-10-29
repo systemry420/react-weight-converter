@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-weight-converter/static/css/main.429bb805.chunk.css",
+    "main.js": "/react-weight-converter/static/js/main.dfd0369b.chunk.js",
+    "main.js.map": "/react-weight-converter/static/js/main.dfd0369b.chunk.js.map",
+    "runtime-main.js": "/react-weight-converter/static/js/runtime-main.cec1f03b.js",
+    "runtime-main.js.map": "/react-weight-converter/static/js/runtime-main.cec1f03b.js.map",
+    "static/js/2.feb27aaa.chunk.js": "/react-weight-converter/static/js/2.feb27aaa.chunk.js",
+    "static/js/2.feb27aaa.chunk.js.map": "/react-weight-converter/static/js/2.feb27aaa.chunk.js.map",
+    "static/js/3.a212d9ec.chunk.js": "/react-weight-converter/static/js/3.a212d9ec.chunk.js",
+    "static/js/3.a212d9ec.chunk.js.map": "/react-weight-converter/static/js/3.a212d9ec.chunk.js.map",
+    "index.html": "/react-weight-converter/index.html",
+    "static/css/main.429bb805.chunk.css.map": "/react-weight-converter/static/css/main.429bb805.chunk.css.map",
+    "static/js/2.feb27aaa.chunk.js.LICENSE.txt": "/react-weight-converter/static/js/2.feb27aaa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cec1f03b.js",
+    "static/js/2.feb27aaa.chunk.js",
+    "static/css/main.429bb805.chunk.css",
+    "static/js/main.dfd0369b.chunk.js"
+  ]
+}
